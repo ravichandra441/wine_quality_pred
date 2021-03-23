@@ -1,0 +1,8 @@
+action: py37, msg: getenv
+cwd: C:\Users\vakas\mlops_wafer\simple_app\.tox
+cmd: 'c:\users\vakas\anaconda3\envs\simple_app\python.exe' -m virtualenv --no-download --python 'c:\users\vakas\anaconda3\envs\simple_app\python.exe' py37
+created virtual environment CPython3.7.10.final.0-64 in 36630ms
+  creator CPython3Windows(dest=C:\Users\vakas\mlops_wafer\simple_app\.tox\py37, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=C:\Users\vakas\AppData\Local\pypa\virtualenv)
+    added seed packages: pip==21.0.1, setuptools==54.1.2, wheel==0.36.2
+  activators BashActivator,BatchActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
